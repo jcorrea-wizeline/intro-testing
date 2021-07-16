@@ -1,6 +1,6 @@
-const { getRandomNumberFactService } = require("./number-facts-service")
+const {getRandomNumberFactService} = require('./number-facts-service')
 
 module.exports.getRandomNumberFact = async () => {
-  const randomNumberFact = await getRandomNumberFactService();
-  return randomNumberFact;
-};
+  const randomNumberFact = await getRandomNumberFactService()
+  return randomNumberFact
+}
